@@ -13,6 +13,7 @@ def play_effect(name):
     effect = sound_dict[name]
     effect.play()
 
+#Plays a specific sound effect based on the combo count
 def play_combo(combo_count):
     if combo_count >= 5:
         play_effect("legendary")
