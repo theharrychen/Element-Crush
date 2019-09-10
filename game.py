@@ -184,8 +184,6 @@ def main():
                                         draw.window(board, turns_left, score,
                                                     GOAL_SCORE)
                                         sound.play_effect("pop")
-                                        #popsound
-                                        #popsound
                                         display_pause(clock, 2.5)
 
                                         while not board_filled(board):
@@ -206,7 +204,6 @@ def main():
 
                                     if combo_count > 1:
                                         draw.combo_msg(combo_count)
-                                        #display_pause(clock, 2.5)
                                         pygame.display.flip()
                                         sound.play_combo(combo_count)
                                         pygame.time.delay(1500)
@@ -243,6 +240,7 @@ def main():
             gameover_displayed = True
             pygame.display.flip()
         
+        #EXITS GAME LOOP
         for event in pygame.event.get():
             if event.type == pygame.QUIT: #window exit button
                 exit_game = True

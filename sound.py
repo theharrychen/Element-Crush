@@ -9,6 +9,7 @@ def load():
         file_path = "sounds/" + sound_names[i] + ".wav"
         sound_dict[sound_names[i]] = pygame.mixer.Sound(file_path)
 
+#Plays named sound effects
 def play_effect(name):
     effect = sound_dict[name]
     effect.play()

@@ -23,7 +23,7 @@ def create_screen(grid_width, grid_height, box_length):
                                       BOX_LENGTH*grid_height))
     return screen
 
-#scales the smaller array length numbers to pixels
+#Scales the smaller array length numbers to pixels
 def to_pixels(x):
     return x*BOX_LENGTH
 
@@ -35,11 +35,11 @@ def window(board, turns_left, score, goal_score):
 def draw_sidebar(turns_left, score, goal_score):
     font = pygame.font.SysFont("Times New Roman", 40)
 
-    text = font.render("Goal:", True, (0,0,0))
+    text = font.render("Goal:", True, (205,133,63))
     screen.blit(text, (to_pixels(7.25), to_pixels(0)))
-    pygame.draw.line(screen, (0,0,0), (to_pixels(7), to_pixels(0.6)),#startpoint
+    pygame.draw.line(screen, (205,133,63), (to_pixels(7), to_pixels(0.6)),#startpoint
                      (to_pixels(8.75),to_pixels(0.6)), 1) #endpoint, width
-    text = font.render(str(goal_score), True, (0,0,0))
+    text = font.render(str(goal_score), True, (205,133,63))
     screen.blit(text, (to_pixels(7.4), to_pixels(0.6)))
 
     text = font.render("Turns", True, (0,0,0))
@@ -48,7 +48,7 @@ def draw_sidebar(turns_left, score, goal_score):
     screen.blit(text, (to_pixels(7.3), to_pixels(2)))
     pygame.draw.line(screen, (0,0,0), (to_pixels(7), to_pixels(2.6)),
                      (to_pixels(8.75),to_pixels(2.6)), 1)
-    text = font.render(str(turns_left), True, (0,0,0))
+    text = font.render(str(turns_left), True, (0,191,255))
     screen.blit(text, (to_pixels(7.5), to_pixels(2.6)))
 
     text = font.render("SCORE:", True, (0,0,255))
