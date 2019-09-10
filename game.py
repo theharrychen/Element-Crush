@@ -1,8 +1,12 @@
-import pygame
-import draw
-import random
-import math
-import sound
+"""
+Main game module that facilitates the game logic, and runs the game loop
+"""
+
+import pygame, draw, random, math, sound, os
+
+__author__ = "Harry Chen"
+__email__ = "harry.chen1@ucalgary.ca"
+__version__ = "0.1"
 
 def init_2DArray(width, height):
     return [[random.randrange(1,7) for x in range(width)] for y in range(height)]
@@ -140,6 +144,7 @@ def main():
     GOAL_SCORE = 300
     exit_game = False
     gameover_displayed = False
+    os.environ['SDL_VIDEO_CENTERED'] = '1' #Centers the window that will be generated
 
     board = init_2DArray(WIDTH, HEIGHT)
     format_board(board)
@@ -206,7 +211,7 @@ def main():
                                         draw.combo_msg(combo_count)
                                         pygame.display.flip()
                                         sound.play_combo(combo_count)
-                                        pygame.time.delay(1500)
+                                        pygame.time.delay(2000)
                                         draw.window(board, turns_left, score,
                                                         GOAL_SCORE)
                                         pygame.display.flip()

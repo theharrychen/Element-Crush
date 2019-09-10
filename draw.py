@@ -1,5 +1,13 @@
-import pygame
-import os
+"""
+Module for loading images and drawing all visual game elements
+Images Used: https://www.deviantart.com/v-pk/art/Element-symbols-428049065
+"""
+
+import pygame, os
+
+__author__ = "Harry Chen"
+__email__ = "harry.chen1@ucalgary.ca"
+__version__ = "0.1"
 
 image_dict = {}
 

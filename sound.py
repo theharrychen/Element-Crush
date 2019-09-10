@@ -1,4 +1,12 @@
+"""
+Module that setups and plays the sound effects
+"""
+
 import pygame
+
+__author__ = "Harry Chen"
+__email__ = "harry.chen1@ucalgary.ca"
+__version__ = "0.1"
 
 sound_dict = {}
 
