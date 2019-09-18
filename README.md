@@ -5,9 +5,13 @@
 
 •    Features combos where getting a chain of matches after your initial match multiplies your turn score
 
-# How to run and test the game?
+# How to run the game without Python? (Windows Only)
+https://github.com/theharrychen/Element-Crush/releases/tag/v0.1
 
-# Prerequisites for Script Compilation
+# Script Compilation
 To compile Element Crush you must have an installed version of Pygame
 
     python -m pip install -U pygame --user
+Then to run the script:
+
+    python game.py
