@@ -15,3 +15,6 @@ To compile Element Crush you must have an installed version of Pygame
 Then to run the script:
 
     python game.py
+
+# Images Used: 
+https://www.deviantart.com/v-pk/art/Element-symbols-428049065
