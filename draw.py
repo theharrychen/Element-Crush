@@ -12,7 +12,7 @@ __version__ = "0.1"
 image_dict = {}
 
 def load_images():
-    image_names = ["fire", "air", "water", "earth", "light", "dark"]
+    image_names = ["fire", "air", "water", "earth", "light", "dark", "fire_transparent"]
     for i in range(len(image_names)):
         file_path = "images/" + image_names[i] + ".png"
         image_dict[image_names[i]] = pygame.image.load(file_path)
@@ -23,7 +23,7 @@ def create_screen(grid_width, grid_height, box_length):
     BOX_LENGTH = box_length
     
     load_images()
-    window_icon = image_dict["fire"]
+    window_icon = image_dict["fire_transparent"]
     pygame.display.set_icon(window_icon)
     pygame.display.set_caption("Element Crush")
 
