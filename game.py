@@ -208,9 +208,9 @@ def main():
                                     pygame.display.flip()
 
                                     if combo_count > 1:
+                                        sound.play_combo(combo_count)
                                         draw.combo_msg(combo_count)
                                         pygame.display.flip()
-                                        sound.play_combo(combo_count)
                                         pygame.time.delay(2000)
                                         draw.window(board, turns_left, score,
                                                         GOAL_SCORE)
