@@ -14,7 +14,7 @@
 https://github.com/theharrychen/Element-Crush/releases/tag/v0.1
 
 # Script Compilation
-To compile Element Crush you must have an installed version of Pygame
+To compile Element Crush you must have installed versions of Python and Pygame:
 
     python -m pip install -U pygame --user
 Then to run the script:
