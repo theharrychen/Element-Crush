@@ -5,6 +5,11 @@
 
 •    Features combos where getting a chain of matches after your initial match multiplies your turn score
 
+<p align="left">
+  <img width="400" height="400" src="https://user-images.githubusercontent.com/46468236/65367395-202c8a00-dbee-11e9-9658-8d6ab4859e2a.gif">
+  <img width="400" height="400" src="https://user-images.githubusercontent.com/46468236/65367395-202c8a00-dbee-11e9-9658-8d6ab4859e2a.gif">
+</p>
+
 # How to run the game without Python? (Windows Only)
 https://github.com/theharrychen/Element-Crush/releases/tag/v0.1
 
