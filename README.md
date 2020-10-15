@@ -6,8 +6,8 @@
 •    Features combos where getting a chain of matches after your initial match multiplies your turn score
 
 <p align="center">
-  <img width="420" height="420" src="https://user-images.githubusercontent.com/46468236/65367719-f2960f80-dbf2-11e9-9444-9810f5ecd5cc.gif">
-  <img width="420" height="420" src="https://user-images.githubusercontent.com/46468236/65367395-202c8a00-dbee-11e9-9658-8d6ab4859e2a.gif">
+  <img width="400" height="400" src="https://user-images.githubusercontent.com/46468236/65367719-f2960f80-dbf2-11e9-9444-9810f5ecd5cc.gif">
+  <img width="400" height="400" src="https://user-images.githubusercontent.com/46468236/65367395-202c8a00-dbee-11e9-9658-8d6ab4859e2a.gif">
 </p>
 
 # How to run the game without Python? (Windows Only)
